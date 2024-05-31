@@ -10,6 +10,7 @@ function activeButtonClick(event) {
 }
 if (buttons.length > 0) {
     buttons[0].classList.add('active');
+    console.log(buttons[0].dataset.key);
 }
 
 buttons.forEach(button => {
