@@ -46,7 +46,7 @@
 }
 .btn:hover {
     cursor: pointer;
-    border: 2px solid rgb(175, 42, 42);
+    border: 2px solid var(--background-color-block);
 
 }
 .block-wrapper-fild {
